@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escolha a Casa de Aposta</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9ecef;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,16 +20,17 @@
 
         .container {
             text-align: center;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+            max-width: 800px;
         }
 
         h1 {
-            font-size: 24px;
+            font-size: 32px;
             color: #333;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         .betting-houses {
@@ -38,23 +41,30 @@
         }
 
         .betting-house {
-            border: 1px solid #ddd;
-            border-radius: 10px;
+            border: none;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .betting-house:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
         .betting-house img {
             display: block;
-            width: 200px;
-            height: 100px;
+            width: 220px;
+            height: 120px;
             object-fit: cover;
+            border-radius: 15px;
+        }
+
+        .betting-house a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
         }
 
         @media (max-width: 600px) {
@@ -76,7 +86,7 @@
             </div>
             <div class="betting-house">
                 <a href="plamoz.html">
-                    <img src="pla.png" alt="Casa de Aposta 2">
+                    <img src="88.png" alt="Casa de Aposta 2">
                 </a>
             </div>
             <div class="betting-house">
